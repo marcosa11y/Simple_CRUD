@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import api from '../api';
 import { Table, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import '../styles/Cart.css';
 
 const Cart = () => {
     const [cart, setCart] = useState(null);

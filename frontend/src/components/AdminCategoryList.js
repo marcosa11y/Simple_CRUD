@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import api from '../api';
 import { Button, ListGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import '../styles/Admin.css';
 
 const AdminCategoryList = () => {
     const [categories, setCategories] = useState([]);
