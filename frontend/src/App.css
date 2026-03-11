@@ -1,0 +1,32 @@
+/* basic layout tweaks */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.App {
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+/* remove CRA logo animation */
+.App-logo {
+  display: none;
+}
+
+/* container spacing added by bootstrap */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
